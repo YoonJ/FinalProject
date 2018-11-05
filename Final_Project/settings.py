@@ -135,5 +135,5 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'oyoons95@gmail.com'
-EMAIL_HOST_PASSWORD = 'xiuxiu1926'
+EMAIL_HOST_PASSWORD = 'hh'
 DEFAULT_FROM_MAIL = 'No Name'
