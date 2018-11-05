@@ -8,7 +8,6 @@
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
-    border:5px solid darkgreen;
 }
 
 .content {
@@ -40,7 +39,6 @@ h1, h2, h3, h4 {
     float: right;
     font-size: 26pt;
     margin-right: 20px;
-    border:5px solid orangered;
     margin-top: 28px;
 }
 .top-menu-login{
@@ -48,7 +46,6 @@ h1, h2, h3, h4 {
     float: right;
     font-size: 26pt;
     margin-right: 20px;
-    border:5px solid blue;
     margin-top: 18px;
     }
 .top-menu-login-logo{
@@ -59,7 +56,6 @@ h1, h2, h3, h4 {
     .top-menu-login{
         font-size: 0pt;
         margin-right: 0px;
-        border:0px solid blue;
         margin-top: 0px;
     }
     .top-menu-login-logo{
@@ -67,20 +63,17 @@ h1, h2, h3, h4 {
         float: right;
         font-size: 13pt;
         margin-right: 10px;
-        border:5px solid orangered;
     }
     .top-menu, .top-menu:hover, .top-menu:visited {
         color: #ffffff;
         float: right;
         font-size: 13pt;
         margin-right: 10px;
-        border:5px solid mediumpurple;
 }
 }
 
 .post {
     margin-bottom: 70px;
-    border:5px solid yellow;
 }
 
 .post h1 a, .post h1 a:visited {
