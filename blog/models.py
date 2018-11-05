@@ -13,7 +13,7 @@ def user_path(instance, filename):
 
 class Post(models.Model):
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
-    image = models.ImageField(upload_to= user_path)
+    image = models.ImageField(upload_to= user_path, blank=True)
     title = models.CharField(max_length=200)
     text = models.TextField()
     created_date = models.DateTimeField(default=timezone.now)

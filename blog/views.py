@@ -11,6 +11,8 @@ from django.contrib.auth import login, authenticate
 from django.http import HttpResponse
 from django.core.mail import EmailMessage
 
+
+
 @login_required
 def invite(request):
     if request.method == "POST":
@@ -67,7 +69,7 @@ def post_detail(request, pk):
 @login_required
 def post_new(request):
     if request.method == "POST":
-        form = PostForm(request.POST)
+        form = PostForm(request.POST, request.FILES)
         if form.is_valid():
             post = form.save(commit=False)
             post.author = request.user
